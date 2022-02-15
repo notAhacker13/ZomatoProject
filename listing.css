@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box; /*new property */
+}
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    line-height:60px;
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+
+nav .zomato
+{
+    text-decoration: none;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    padding-left: 50px;
+   
+}
+.content1 a
+{
+    text-decoration:none;
+    padding:0px 20px;
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+.content1 .rightmost
+{
+    padding-right:80px;
+}
+nav a
+{
+    transition:0.5s;
+}
+nav a:hover
+{
+    color:rgb(247, 63, 30);
+    transition:0.5s;
+}
+/* SECTION 1 */
+#section1
+{
+    background-image: url(../ZomatoProject/img/listingimages/section1_bg.jpg);
+    height:350px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    color:white;
+}
+#section1 .overlay
+{
+    background-color:rgba(0, 0, 0, 0.479);
+    height:100%;
+}
+#section1 h1
+{
+    font-size:80px;
+}
+#section1 p
+{
+    width:750px;
+    font-size:20px;
+}
+#section1 center
+{
+    padding-top:80px;
+}
+/* SECTION 2 */
+#section2 .container
+{
+    padding:50px 0px;
+}
+#section2 .container .row .col-lg-3
+{
+    box-shadow:0px 0px 10px 2px rgb(228, 226, 226);
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+#section2 .container .row .col-lg-3 h3
+{
+    padding-left:40px;
+    padding-top:20px;
+}
+#section2 .container .row .col-lg-3 .sort , .location , .cuisine , .price
+{
+    padding-left:80px;
+    font-size:20px;
+    padding-top:20px;
+    padding-bottom:0px;
+}
+
+#section2 .container .row .col-lg-9 .row1
+{
+    box-shadow:0px 0px 10px 2px rgb(228, 226, 226);
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    border-radius:20px 20px 20px 20px;
+}
+#section2 .container .row .col-lg-9 .row1 .col-lg-5 
+{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+#section2 .container .row .col-lg-9 .row1 .col-lg-5 img
+{
+    border-radius:20px 0px 0px 20px;
+}
+#section2 .container .row .col-lg-9 .row1 .col-lg-7 h2
+{
+    padding-top:60px;
+}
+#section2 .container .row .col-lg-9 .row1 .col-lg-7 span
+{
+    color:white;
+    background-color:green;
+    font-weight: bold;
+    padding:2px 2px;
+    border-radius:6px;
+}
+#section2 center
+{
+    padding-bottom:30px;
+    padding-top:50px;
+}

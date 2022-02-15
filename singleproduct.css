@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box; /*new property */
+}
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    line-height:60px;
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+
+nav .zomato
+{
+    text-decoration: none;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    padding-left: 50px;
+   
+}
+.content1 a
+{
+    text-decoration:none;
+    padding:0px 20px;
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+.content1 .rightmost
+{
+    padding-right:80px;
+}
+nav a
+{
+    transition:0.5s;
+}
+nav a:hover
+{
+    color:rgb(247, 63, 30);
+    transition:0.5s;
+}
+.container
+{
+    padding-top:60px;
+}
+.container .col-lg-7
+{
+    font-size:20px;
+}
+.container .col-lg-7 h1
+{
+    padding-top:40px;
+}
+.container .col-lg-7 .price
+{
+    font-size:28px;
+}
+.container .col-lg-7 .yellow
+{
+    color:white;
+    padding:10px 25px;
+    background-color:rgb(255, 159, 15);
+    cursor:pointer;
+}
+.container .col-lg-7 .orange
+{
+    color:white;
+    padding:10px 25px;
+    background-color:rgb(255, 103, 15);
+    margin-left:20px;
+    cursor:pointer;
+}
+.container .col-lg-7 .rating
+{
+    color:white;
+    padding:5px 10px;
+    background-color:green;
+    border-radius: 8px;
+    font-size: 16px;
+}
+body center
+{
+    padding-top:50px;
+    
+}

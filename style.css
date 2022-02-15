@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;400;500;800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+     box-sizing: border-box; /*new property */
+}
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    line-height:60px;
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+
+nav .zomato
+{
+    text-decoration: none;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+    padding-left: 50px;
+   
+}
+.content1 a
+{
+    text-decoration:none;
+    padding:0px 20px;
+    font-size:20px;
+    font-weight:600;
+    color:black;
+}
+.content1 .rightmost
+{
+    padding-right:80px;
+}
+nav a
+{
+    transition:0.5s;
+}
+nav a:hover
+{
+    color:rgb(247, 58, 25);
+    transition:0.5s;
+}
+/* SECTION 1 */
+
+#section1
+{
+    background-image:url(../ZomatoProject/img/indeximages/section1_bg.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:650px;
+    color:white;
+    align-items: center;
+    position:relative;
+}
+#section1 .content
+{
+    position:absolute;
+    top:200px;
+    left:450px;
+    text-align:center;
+}
+
+#section1 .overlay
+{
+    background-color:rgba(0, 0, 0, 0.63);
+    height:100%;
+}
+#section1 .content h1
+{
+    font-size:80px;
+    font-weight:500;
+    padding-bottom:20px;
+}
+#section1 .content p
+{
+    font-size:20px;
+    font-weight:500;
+}
+#section1 .content select
+{
+    padding:8px 12px;
+    font-size:20px;
+    padding-right:30px;
+    outline:none;
+}
+#section1 .content input
+{
+    padding:9px 10px;
+    font-size: 18px;
+    width:25rem;
+    padding-left:0px;
+    margin-left: -4px;
+    border:none;
+    outline:none;
+    padding-top:10px;
+
+}
+#section1 .content .fas
+{
+    background-color:white;
+    color:rgb(182, 177, 177);
+    padding:12px 12px;
+    padding-bottom:14px;
+    font-size:20px;
+    margin-right: 0px;
+}
+#section1 .content form
+{
+    line-height:1;
+}
+/* SECTION 2 */
+#section2
+{
+    padding:50px 0px;
+    position:relative;
+    padding-top:0px;
+
+}
+#section2 .container
+{
+    padding-top:150px;
+}
+#section2 .container .row a
+{
+    text-decoration:none;
+    color:black;
+}
+#section2 .container .box
+{
+    border-radius:20px;
+    box-shadow:0px 0px 10px 2px rgb(175, 174, 174);
+    transition: 1.2s;
+}
+#section2 .container .box img
+{
+    border-radius:20px 20px 0px 0px;
+}
+#section2 .container .box h4
+{
+    text-align:center;
+    padding:15px 0px;
+
+}
+#section2 .container .box:hover
+{
+    transform: scale(1.1);
+    transition: 1.2s;
+    cursor:pointer;
+}
+#section2 h2
+{
+    position:absolute;
+    left:120px;
+    top:50px;
+
+}
+#section2 p
+{
+    position:absolute;
+    left:120px;
+    top:100px;
+    font-size:20px;
+}
+/* SECTION 3 */
+#section3
+{
+    background-color: #FFFBF7;
+}
+#section3 .container
+{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#section3 .container .content
+{
+    padding-top:180px;
+}
+#section3 .container .content p
+{
+    font-size:20px;
+}
+#section3 .container .content input
+{
+    padding:10px 10px;
+    font-size:20px;
+    width:20rem;
+    
+    outline:none;
+}
+#section3 .container .content button
+{
+    padding:10px 30px;
+    font-size:20px;
+    border:none;
+    outline:none;
+    background-color:rgba(252, 24, 73, 0.911);
+    color:white;
+}
+#section3 .container .content .downloadapp
+{
+    padding-top:10px;
+}
+#section3 center
+{
+    padding-bottom:30px;
+}
+/* Login Pop up */
+.loginbox
+{
+    height:350px;
+    width:350px;
+    position:absolute;
+    justify-content:center;
+    align-items:center;
+    top:180px;
+    left:600px;
+    background-color:white;
+    box-shadow:0px 0px 10px 2px grey;
+    border-radius:10px;
+    display:none;
+    
+}
+.loginbox .content
+{
+    padding-left:50px;
+    padding-top:40px;
+}
+.loginbox .content .submit
+{
+    padding:5px 10px;
+    margin-top:20px;
+    margin-left:80px;
+    border:none;
+    box-shadow:0px 0px 10px 2px rgb(231, 181, 43);
+    background-color:rgba(255, 174, 0, 0.712);
+}
+.loginbox .content .textfield
+{
+    padding:5px 10px;
+    outline:none;
+}
+.loginbox span
+{
+    position:absolute;
+    top:5px;
+    right:15px;
+    cursor:pointer;
+    font-size:20px;
+}
+.opacity
+{
+    display:block;
+}

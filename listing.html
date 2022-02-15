@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="listing.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <a class="zomato" href="index.html"><i>Zomato</i></a>
+        <div class="content1">
+            <a href="#">Add Restaurant</a>
+            <a href="#">Sign in</a>
+            <a class="rightmost" href="#">Sign up</a>
+        </div>
+    </nav>
+    <!-- Section1  -->
+    <div id="section1">
+        <div class="overlay">
+            <center>
+                <h1><i>Listing Page</i></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perspiciatis debitis natus nam fugiat cum illum corrupti inventore laudantium, nulla ipsam voluptas consectetur, aperiam illo temporibus dolorum non quis nostrum.</p>
+            </center>
+        </div>
+    </div>
+
+    <!-- Section2 -->
+    <div id="section2">
+        <div class="container">
+            <div class="row">
+                    <div class="col-lg-3">
+                        <h2>Filter</h2>
+                        <h3>Sort By</h3>
+                        <div class="sort">
+                            
+                            <input type="radio" id="popularity" name="sort"> popularity</input><br><br>
+                            <input type="radio" id="rating" name="sort"> Rating: High to Low</input><br><br>
+                            <input type="radio" id="cost_h2l" name="sort"> Cost: High to Low</input><br><br>
+                            <input type="radio" id="cost_l2h" name="sort"> Cost: Low to High</input><br><br>
+                            <input type="radio" id="popularity" name="sort"> Delivery Time</input><br><br>
+                        </div>
+                        <br> <br>
+                        <h3>By Location</h3>
+                        <div class="location">
+                            <input type="radio" id="Mumbai" name="location"> Mumbai</input><br><br>
+                            <input type="radio" id="Delhi" name="location"> Delhi</input><br><br>
+                            <input type="radio" id="Sirsa" name="location"> Sirsa</input><br><br>
+                            <input type="radio" id="Karnataka" name="location"> Karnataka</input><br><br>
+                            <input type="radio" id="Dehradun" name="location"> Dehradun</input><br><br>
+                            <input type="radio" id="Hyderabad" name="location"> Hyderabad</input><br><br>
+                        </div>
+                        <br> <br>
+                        <h3>By Cuisine</h3>
+                        <div class="cuisine">
+                            <input type="radio" id="North Indian" name="cuisine"> North Indian</input><br><br>
+                            <input type="radio" id="South Indian" name="cuisine"> South Indian</input><br><br>
+                            <input type="radio" id="Chinese" name="cuisine"> Chinese</input><br><br>
+                            <input type="radio" id="Turkish" name="cuisine"> Turkish</input><br><br>
+                        </div>
+                        <br> <br>
+                        <h3>By Price</h3>
+                        <div class="price">
+                            <input type="radio" id="H2l" name="price"> High to Low</input><br><br>
+                            <input type="radio" id="l2H" name="price"> Low to High</input><br><br>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9">
+                        <div class="row row1" >
+                            <div class="col-lg-5">
+                                <a href="singleproduct.html"><img src="../ZomatoProject/img/listingimages/section2_1.jpg" alt=""></a>
+                            </div>
+                            <div class="col-lg-7">
+                                <h2>Baskin Robins</h2>
+                                <p style="font-size:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequatur beatae laboriosam id natus facere!</p>
+                                <span>
+                                    3.5 
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <p style="font-size:20px ; padding-top:10px;">₹150 for one</p>
+                            </div>
+                        </div> <br>
+
+                        <div class="row row1" >
+                            <div class="col-lg-5">
+                                <a href="singleproduct.html"><img src="../ZomatoProject/img/listingimages/section2_2.jpg" alt=""></a>
+                            </div>
+                            <div class="col-lg-7">
+                                <h2>Tossin Pizza</h2>
+                                <p style="font-size:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequatur beatae laboriosam id natus facere!</p>
+                                <span>
+                                    4 
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <p style="font-size:20px ; padding-top:10px;">₹150 for one</p>
+                            </div>
+                        </div> <br>
+
+                        <div class="row row1" >
+                            <div class="col-lg-5">
+                                <a href="singleproduct.html"><img src="../ZomatoProject/img/listingimages/section2_3.jpg" alt=""></a>
+                            </div>
+                            <div class="col-lg-7">
+                                <h2>Tossin Momos</h2>
+                                <p style="font-size:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequatur beatae laboriosam id natus facere!</p>
+                                <span>
+                                    5
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <p style="font-size:20px ; padding-top:10px;">₹150 for one</p>
+                            </div>
+                        </div> <br>
+
+                        <div class="row row1" >
+                            <div class="col-lg-5">
+                                <a href="singleproduct.html"><img src="../ZomatoProject/img/listingimages/section2_4.jpg" alt=""></a>
+                            </div>
+                            <div class="col-lg-7">
+                                <h2>Wakka Maka Cheese</h2>
+                                <p style="font-size:20px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam consequatur beatae laboriosam id natus facere!</p>
+                                <span>
+                                    4.2 
+                                    <i class="fas fa-star"></i>
+                                </span>
+                                <p style="font-size:20px ; padding-top:10px;">₹150 for one</p>
+                            </div>
+                        </div> <br>
+
+                    </div>
+            </div>
+        </div>
+        <center>
+            Copyright © 2021. All rights reserved with <b>Aniket Kumar</b>
+        </center>
+    </div>
+</body>
+</html>
